@@ -43,9 +43,8 @@
             
             document.getElementById('p-color').onclick = () => setBackgroundColorById ('p-color', document.getElementById('input-color').value);
 
-            function setBackgroundColorById(id, color) {
-                document.getElementById(id).style = 'background-color: ' + color;
-            }
+            const setBackgroundColorById = (id, color) => document.getElementById(id).style = 'background-color: ' + color;
+            
         </script>
     </body>
 
